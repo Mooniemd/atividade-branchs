@@ -55,8 +55,12 @@
     box-shadow: 0 9px rgb(233, 116, 74);
 }
 
+.btn4:hover{
+    background-color: rgb(255, 134, 90);
+}
+
 .btn4:active{
-    background-color: coral;
+    background-color: rgb(255, 134, 90);
     box-shadow: 0 5px rgb(233, 116, 74);
     transform: translateY(5px);
 }
