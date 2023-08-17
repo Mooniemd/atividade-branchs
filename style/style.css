@@ -55,9 +55,22 @@
     box-shadow: 8px 8px rgb(105, 214, 178);
     transition: 0.5s;
 }
+
 .btn4{
     background-color: coral;
+    box-shadow: 0 9px rgb(233, 116, 74);
 }
+
+.btn4:hover{
+    background-color: rgb(255, 134, 90);
+}
+
+.btn4:active{
+    background-color: rgb(255, 134, 90);
+    box-shadow: 0 5px rgb(233, 116, 74);
+    transform: translateY(5px);
+}
+
 .btn5{
     background-color: crimson
 }
