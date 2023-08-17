@@ -18,7 +18,7 @@
 
 .grid button{
     border: none;
-    width: 150px;
+    width: 225px;
     height: 50px;
     cursor: pointer;
     border-radius: 5px;
@@ -26,12 +26,13 @@
 
 .btn1{
     background-color: tomato;
-    -webkit-transition: all 0.5s
+    transition: all 0.2s linear;
 }
 
 .btn1:hover{
-    -webkit-transition: all 0.5s;
+    transition: all 0.2s linear;
     background-color: rgb(252, 118, 94);
+    transform: scale(1.1);
 }
 
 .btn2{  
