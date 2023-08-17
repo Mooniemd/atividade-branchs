@@ -41,8 +41,11 @@
 }
 
 .btn2:hover{
+    background-color: rgb(233, 116, 33);
+    transition: all 0.2 linear;
     transform: translateY(-10px);
 }
+
 .btn3{
     background-color: aquamarine;
 }
