@@ -17,19 +17,25 @@
 }
 
 .grid button{
-    border: 1px solid;
-    width: 150px;
+    border: none;
+    width: 225px;
     height: 50px;
     cursor: pointer;
+    border-radius: 5px;
 }
 
 .btn1{
     background-color: tomato;
+    transition: all 0.2s linear;
 }
 
-.btn:hover{
+.btn1:hover{
+    transition: all 0.2s linear;
+    background-color: rgb(252, 118, 94);
+    transform: scale(1.1);
 }
-.btn2{
+
+.btn2{  
     background-color: chocolate;
 }
 .btn3{
