@@ -72,8 +72,23 @@
 }
 
 .btn5{
-    background-color: crimson
+    color: #fff;
+    background-color: #0066CC;
+    padding: 10px 30px;
+    border: 2px solid #0066cc;
+    transition : 767ms; 
+    cursor: pointer;
 }
+
+.btn5:hover{
+    transition : 767ms;
+    padding: 10px 36px;
+    transform : translateY(-13px);
+    background-color: #fff;
+    color: #0066cc;
+    border: solid 2px #0066cc;
+}
+
 .btn6{
     background-color: cornflowerblue;
 }
