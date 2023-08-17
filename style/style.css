@@ -48,6 +48,12 @@
 
 .btn3{
     background-color: aquamarine;
+    transition: 0.3s;
+}
+
+.btn3:hover{
+    box-shadow: 8px 8px rgb(105, 214, 178);
+    transition: 0.3s;
 }
 .btn4{
     background-color: coral;
