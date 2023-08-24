@@ -1,5 +1,18 @@
-*{
-    font-family: 'VT323', monospace;
+:root{
+    --bg-color: #F4F4F6;
+    --font:'VT323', monospace;
+    --btn4bg: rgb(255, 134, 90);
+    --btn4shadow: rgb(233, 116, 74);
+    --btn5all:#0066CC;
+}
+
+body{
+    background-color: var(--bg-color);
+    font-family: var(--font);
+}
+
+button{
+    font-family: var(--font);
 }
 
 .title{
@@ -58,24 +71,24 @@
 
 .btn4{
     background-color: coral;
-    box-shadow: 0 9px rgb(233, 116, 74);
+    box-shadow: 0 9px var(--btn4shadow);
 }
 
 .btn4:hover{
-    background-color: rgb(255, 134, 90);
+    background-color: var(--btn4);
 }
 
 .btn4:active{
-    background-color: rgb(255, 134, 90);
-    box-shadow: 0 5px rgb(233, 116, 74);
+    background-color: var(--btn4);
+    box-shadow: 0 5px var(--btn4shadow);
     transform: translateY(5px);
 }
 
 .btn5{
     color: #fff;
-    background-color: #0066CC;
+    background-color: var(--btn5all);
     padding: 10px 30px;
-    border: 2px solid #0066cc;
+    border: 1px solid var(--btn5all);
     transition : 767ms; 
     cursor: pointer;
 }
@@ -85,8 +98,8 @@
     padding: 10px 36px;
     transform : translateY(-13px);
     background-color: #fff;
-    color: #0066cc;
-    border: solid 2px #0066cc;
+    color: var(--btn5all);
+    border: solid 2px var(--btn5all);
 }
 
 .btn6{
