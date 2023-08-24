@@ -1,5 +1,15 @@
-*{
-    font-family: 'VT323', monospace;
+:root{
+    --bg-color: #F4F4F6;
+    --font:'VT323'
+}
+
+body{
+    background-color: var(--bg-color);
+    font-family: var(--font);
+}
+
+button{
+    font-family: var(--font);
 }
 
 .title{
