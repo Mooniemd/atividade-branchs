@@ -110,6 +110,10 @@ button{
     animation:slidebg 1s linear infinite;
 }
 
+.btn7{
+    grid-column: span 3;
+}
+
 @keyframes slidebg {
     to{
         background-position: 15vw;
