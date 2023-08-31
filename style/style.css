@@ -75,11 +75,11 @@ button{
 }
 
 .btn4:hover{
-    background-color: var(--btn4);
+    background-color: var(--btn4bg);
 }
 
 .btn4:active{
-    background-color: var(--btn4);
+    background-color: var(--btn4bg);
     box-shadow: 0 5px var(--btn4shadow);
     transform: translateY(5px);
 }
@@ -114,6 +114,27 @@ button{
     to{
         background-position: 15vw;
     }
+}
+
+.btn7{
+    margin-left: 35px;
+    grid-column: span 3;
+    transform: translate(-5%, 5%);
+}
+
+a{
+
+    text-decoration: none;
+    border-top: 2px solid #333;
+    border-bottom: 2px solid #333;
+    letter-spacing: 3px;
+    padding: 10px;
+    transition: 0.5s;
+}
+
+a:hover{
+    letter-spacing: 30px;
+    transition: 0.5s;
 }
 
 aside{
