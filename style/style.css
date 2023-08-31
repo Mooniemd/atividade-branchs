@@ -115,3 +115,12 @@ button{
         background-position: 15vw;
     }
 }
+
+aside{
+    text-align: center;
+    display: none;
+    width: 60%;
+    min-width: 400px;
+    margin: auto;
+    margin-top: 20px;
+}
