@@ -110,12 +110,17 @@ button{
     animation:slidebg 1s linear infinite;
 }
 
-.btn7{
-    grid-column: span 3;
-}
-
 @keyframes slidebg {
     to{
         background-position: 15vw;
     }
+}
+
+aside{
+    text-align: center;
+    display: none;
+    width: 60%;
+    min-width: 400px;
+    margin: auto;
+    margin-top: 20px;
 }
