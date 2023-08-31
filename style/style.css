@@ -136,3 +136,12 @@ a:hover{
     letter-spacing: 30px;
     transition: 0.5s;
 }
+
+aside{
+    text-align: center;
+    display: none;
+    width: 60%;
+    min-width: 400px;
+    margin: auto;
+    margin-top: 20px;
+}
